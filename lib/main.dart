@@ -8,13 +8,21 @@ import 'package:food_delivery_app/utils/universal_variables.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+
+  // Initialize Firebase with your project-specific configuration
+  await Firebase.initializeApp(
+    options: FirebaseOptions(
+      apiKey: "AIzaSyACAAARBWh7brVEDDTOengs33nNVx0J17E",
+      appId: "1:615310209885:android:c183274295aae7806beeb4",
+      messagingSenderId: "615310209885",
+      projectId: "cityjucies",
+    ),
+  );
 
   runApp(MyApp());
 }
 
 class MyApp extends StatefulWidget {
-  // This widget is the root of your application.
   @override
   _MyAppState createState() => _MyAppState();
 }
