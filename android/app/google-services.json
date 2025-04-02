@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "615310209885",
+    "project_id": "cityjucies",
+    "storage_bucket": "cityjucies.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615310209885:android:c183274295aae7806beeb4",
+        "android_client_info": {
+          "package_name": "com.cityjuices"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACAAARBWh7brVEDDTOengs33nNVx0J17E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
